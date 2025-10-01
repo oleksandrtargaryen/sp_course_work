@@ -1,0 +1,21 @@
+program Cycler;
+var int aAAA, bBBB, cAAA, cBBB, xVAL;
+begin
+  input(aAAA);
+  input(bBBB);
+
+  for cAAA := aAAA to bBBB do
+  begin
+    output(cAAA * cAAA);
+  end;
+
+  xVAL := 0;
+  for cAAA := 1 to aAAA do
+  begin
+    for cBBB := 1 to bBBB do
+    begin
+      xVAL := xVAL + 1;
+    end;
+  end;
+  output(xVAL);
+end;

@@ -1,0 +1,29 @@
+program MaxFinder;
+var int aAAA, bBBB, cCCC, mMAX;
+begin
+  input(aAAA);
+  input(bBBB);
+  input(cCCC);
+
+  if aAAA >= bBBB and aAAA >= cCCC then
+  begin
+    mMAX := aAAA;
+  end
+  else if bBBB >= aAAA and bBBB >= cCCC then
+  begin
+    mMAX := bBBB;
+  end
+  else
+  begin
+    mMAX := cCCC;
+  end;
+  output(mMAX);
+
+  if (aAAA = bBBB) and (aAAA = cCCC) and (bBBB = cCCC) then
+  begin
+    output(1);
+  end
+  else
+  begin
+    output(0);
+  end;

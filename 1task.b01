@@ -1,0 +1,18 @@
+program Calculator;
+var int aAAA, bBBB, xXXX, yYYY;
+begin
+  input(a);
+  input(b);
+  
+  output(aAAA + bBBB);
+  output(aAAA - bBBB);
+  output(aAAA * bBBB);
+  output(aAAA / bBBB);
+  output(a AAA% bBBB);
+  
+  xXXX := (aAAA - bBBB) * 10 + (aAAA + bBBB) / 10;
+  yYYY := xXXX + xXXX % 10;
+  
+  output(xXXX);
+  output(yYYY);
+end;
