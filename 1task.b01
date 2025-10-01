@@ -8,7 +8,7 @@ begin
   output(aAAA - bBBB);
   output(aAAA * bBBB);
   output(aAAA / bBBB);
-  output(a AAA% bBBB);
+  output(aAAA% bBBB);
   
   xXXX := (aAAA - bBBB) * 10 + (aAAA + bBBB) / 10;
   yYYY := xXXX + xXXX % 10;
